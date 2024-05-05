@@ -1,0 +1,30 @@
+.leftfix {
+    float: left;
+}
+
+.rightfix {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    /* position: relative; */
+    display: block;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
